@@ -1,0 +1,103 @@
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: -25px;
+   margin-left: -10px;
+   margin-right: -10px;
+   background-color:  rgb(212, 212, 212);
+}
+
+.logo{
+   width: 10%;
+}
+
+.header a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.icon{
+   flex-direction: column;
+}
+
+.main{
+   margin-top: 200px;
+   display: flex;
+   justify-content:space-around ;
+}
+
+.block , .block1 , .block2{
+   background-color: rgb(212, 212, 212);
+   border-radius: 15px;
+   height: 500px;
+   transition: 0.5s ;
+}
+
+.foto-tovar{
+   width: 65%;
+   margin-left: 80px;
+}
+
+.info, .info1, .info2 {
+   opacity: 0;
+   transition: 0.5s;
+   margin-left: 150px;
+ }
+ 
+.block:hover .info {
+   opacity: 1; 
+ }
+ .block1:hover .info1 {
+   opacity: 1; 
+ }
+ .block2:hover .info2 {
+   opacity: 1; 
+ }
+
+.block:hover {
+   height: 700px;
+ }
+ .block1:hover {
+   height: 700px;
+ }
+ .block2:hover {
+   height: 700px;
+ }
+ 
+
+.block a{
+   margin-left: 130px;
+}
+.block1 a{
+   margin-left: 130px;
+}
+.block2 a{
+   margin-left: 130px;
+}
+
+.button{
+   color: black;
+   text-decoration:dashed;
+   color: white(255, 255, 255, 0.9);
+   background-color:grey;
+   font-size: 24px;
+   padding:30px 30px; 
+   border-radius: 10px; 
+   opacity: 0;
+   transition: 0.5s;
+   display: inline-block; 
+   margin-top: 35px; 
+ }
+
+ .block:hover .button {
+   opacity: 1; 
+ }
+ .block1:hover .button {
+   opacity: 1; 
+ }
+ .block2:hover .button {
+   opacity: 1; 
+ }
